@@ -1,3 +1,6 @@
+build:
+  pythonVersion: 3.10.13
+
 services:
   - type: web
     name: lemadh-thesis-ai-detector
@@ -7,6 +10,4 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.13
-    build:
-      pythonVersion: 3.10.13
 
