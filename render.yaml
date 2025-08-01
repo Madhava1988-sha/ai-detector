@@ -1,13 +1,9 @@
-build:
-  pythonVersion: 3.10.13
-
 services:
   - type: web
     name: lemadh-thesis-ai-detector
     env: python
-    buildCommand: pip install --prefer-binary -r requirements.txt
+    buildCommand: ./render-build.sh
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.13
-

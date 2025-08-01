@@ -6,4 +6,4 @@ joblib==1.4.2
 sentence-transformers==2.2.2
 nltk==3.8.1
 spacy==3.7.2
-blis==0.7.11  # ✅ This version has precompiled wheels for Python 3.10
+blis==0.7.9  # ✅ Precompiled, safe
