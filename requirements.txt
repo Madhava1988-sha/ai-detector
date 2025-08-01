@@ -1,7 +1,8 @@
+--prefer-binary
 Flask==2.3.3
 gunicorn==21.2.0
 scikit-learn==1.6.1
 joblib==1.4.2
 sentence-transformers==2.2.2
+spacy==3.7.2
 nltk==3.8.1
-spacy==3.7.2 --prefer-binary
